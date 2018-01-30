@@ -1,0 +1,28 @@
+.btn-content {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.btn {
+  flex: 1;
+  line-height: 42px;
+  text-align: center;
+  background: #00bcd4;
+  color: #fff;
+}
+.publish {
+  background: #ff9300;
+}
+#map {
+  width: 100%;
+  height: 100%;
+}
+.map-content{
+  position: absolute;
+  top: 0;
+  bottom: 42px;
+  left: 0;
+  right: 0;
+}

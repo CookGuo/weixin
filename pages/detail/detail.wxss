@@ -1,0 +1,29 @@
+.publish {
+  display: flex;
+  height: 45px;
+  border-bottom: 1px solid #ccc;
+}
+.title {
+   line-height: 45px;
+   color: #ccc;
+   text-indent: 10px;
+   width: 100px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+.desc {
+  flex: 1;
+  line-height: 35px;
+  padding: 5px 10px;
+}
+.desc-input {
+  line-height: 35px;
+  height: 35px;
+  color: #000;
+}
+.address {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,36 @@
+<view class="publish">
+  <view class="title">发布地址</view>
+  <view class="desc address" bindtap="addressSelect">{{address}}</view>
+</view>
+
+<view class="publish">
+  <view class="title">请选择</view>
+  <view class="desc select">
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio">
+        出售 <radio value="sell"/>
+      </label>
+      <label class="radio">
+        求购 <radio value="buy"/>
+      </label>
+    </radio-group>
+  </view>
+</view>
+
+<view class="publish">
+  <view class="title">描述</view>
+  <view class="desc">
+    <input bindinput="messageChange" class="desc-input" placeholder="说点什么。。。。"/>
+  </view>
+</view>
+
+<view class="publish">
+  <view class="title">联系方式</view>
+  <view class="desc">
+     <input bindinput="contactChange" class="desc-input" placeholder="您的联系方式"/>
+  </view>
+</view>
+
+<view class="submit-btn" bindtap="handleSubmitBtn">
+  提交信息
+</view>

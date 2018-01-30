@@ -1,0 +1,20 @@
+<view class="publish">
+  <view class="title">地址信息：</view>
+  <view class="desc address">{{address}}</view>
+</view>
+
+<view class="publish">
+  <view class="title">方式</view>
+  <view class="desc select">{{type === 'sell' ? "出售" : "求购" }}</view>
+</view>
+
+<view class="publish">
+  <view class="title">描述</view>
+  <view class="desc">{{message}}</view>
+</view>
+
+<view class="publish">
+  <view class="title">联系方式</view>
+  <view class="desc">{{contact}}</view>
+</view>
+

@@ -1,0 +1,45 @@
+.search {
+  display: flex;
+  background: #000;
+}
+.input {
+  flex: 1;
+  background: #fff;
+  height: 35px;
+  margin: 5px 10px;
+  padding: 0 10px;
+  border-radius:5px;
+}
+.search-btn {
+  width: 50px;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+}
+page{
+  background: #ccc;
+}
+.desc {
+  background: #fff;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+.address {
+  color: #ff9300;
+  font-size: 14px;
+}
+.message {
+  line-height: 30px;
+  padding: 0 10px 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+.contact {
+  line-height: 30px;
+  padding: 0 10px 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
